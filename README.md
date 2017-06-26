@@ -11,16 +11,12 @@ This extension adds snippets to Visual Studio Code for creating Azure Resource M
 * Redis
 * Application Insights
 
-##Inserting Snippets
+## Inserting Snippets
 
 Inside any JSON file, start typing arm! to see a list of snippets availible. Select the snippet to insert and update any required values.
 
 Inserting an ARM Template Skeleton
 ![skeleton](https://github.com/sam-cogan/arm-snippets-vscode/raw/master/images/skeleton.gif)
-
-
-
-![intelliSense](https://github.com/microsoft/vscode-docker/raw/master/images/intelliSense.gif)
 
 
  
