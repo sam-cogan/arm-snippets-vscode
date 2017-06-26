@@ -1,0 +1,21 @@
+{
+    "name": "arm-snippets",
+    "displayName": "ARM Snippets",
+    "description": "Snippets for creating Azure Resource Manger Templates",
+    "version": "0.0.1",
+    "publisher": "samcogan",
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "json",
+                "path": "./snippets/armsnippets.json"
+            }
+        ]
+    }
+}
