@@ -16,9 +16,10 @@ This extension adds snippets to Visual Studio Code for creating Azure Resource M
 Inside any JSON file, start typing arm! to see a list of snippets availible. Select the snippet to insert and update any required values.
 
 Inserting an ARM Template Skeleton
-![skeleton](https://github.com/sam-cogan/arm-snippets-vscode/extension/raw/master/images/skeleton.gif)
+
+![skeleton](https://raw.githubusercontent.com/sam-cogan/arm-snippets-vscode/master/Extension/images/skeleton.gif)
 
 
  
 ## License 
-[MIT](https://github.com/sam-cogan/arm-snippets-vscode/extension/blob/master/LICENSE)
+[MIT](https://github.com/sam-cogan/arm-snippets-vscode/blob/master/Extension/LICENSE.md)
