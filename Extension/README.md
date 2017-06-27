@@ -19,7 +19,13 @@ Inserting an ARM Template Skeleton
 
 ![skeleton](https://raw.githubusercontent.com/sam-cogan/arm-snippets-vscode/master/Extension/images/skeleton.gif)
 
+##Feedback & Contributing
 
+Please report any bugs, suggestions or documentation requests via [Github]((https://github.com/sam-cogan/arm-snippets-vscode).
+Feel free to submit pull requests.
+
+##Acknowledgements
+Snippets Taken from [Cross Platform Tooling Samples](https://github.com/Azure/azure-xplat-arm-tooling)
  
 ## License 
 [MIT](https://github.com/sam-cogan/arm-snippets-vscode/blob/master/Extension/LICENSE.md)
