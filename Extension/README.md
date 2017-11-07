@@ -10,6 +10,8 @@ This extension adds snippets to Visual Studio Code for creating Azure Resource M
 * Network Interfaces and IP's
 * Redis
 * Application Insights
+* DNS
+* Azure Container Instances
 
 ## Inserting Snippets
 
@@ -19,12 +21,12 @@ Inserting an ARM Template Skeleton
 
 ![skeleton](https://raw.githubusercontent.com/sam-cogan/arm-snippets-vscode/master/Extension/images/skeleton.gif)
 
-##Feedback & Contributing
+## Feedback & Contributing
 
 Please report any bugs, suggestions or documentation requests via [Github]((https://github.com/sam-cogan/arm-snippets-vscode).
 Feel free to submit pull requests.
 
-##Acknowledgements
+## Acknowledgements
 Snippets Taken from [Cross Platform Tooling Samples](https://github.com/Azure/azure-xplat-arm-tooling)
  
 ## License 
