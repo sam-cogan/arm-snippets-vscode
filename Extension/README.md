@@ -12,6 +12,9 @@ This extension adds snippets to Visual Studio Code for creating Azure Resource M
 * Application Insights
 * DNS
 * Azure Container Instances
+* Cosmos DB
+* Azure Automation
+* Azure Kubernetes Service (AKS)
 
 ## Inserting Snippets
 

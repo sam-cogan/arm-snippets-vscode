@@ -10,3 +10,8 @@
 - Added snippets for NSG, NSG Rule
 - Added snippets for DNS Zone, DNS Record
 - Added snippets for Azure Container Instances
+
+## [1.1.0] - 2018-06-30
+- Added snippets for Cosmos DB
+- Added snippets for Azure Automation Accounts, Variables, Certificates, Credentials, Runbooks, Schedules
+- Added snippets for Azure Kubernetes Service (AKS) Cluster
