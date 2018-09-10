@@ -6,5 +6,7 @@
         [string]$buildNumber
     )
 
-   "{" + (Get-Content $pathToFile -Raw) + "}" | % {$_.replace('@@versionnumber@@',$buildNumber)} | Set-Content $pathToFile
+   "{" + (Get-Content $pathToFile -Raw) + "}"  | Set-Content $pathToFile
+
+   $(Get-Content $pathToFile -Raw).Replace('@@versionnumber@@',$buildNumber) | Set-Content $pathToFile
     
