@@ -53,11 +53,11 @@ steps:
 
 
 - task: PublishBuildArtifacts@1
-  displayName: 'Publish Artifact: arm-snippets-1.2.0.vsix'
+  displayName: 'Publish Artifact: arm-snippets-$(Date:yyyyMMdd).$(Rev:.r).vsix'
   inputs:
-    PathtoPublish: '$(build.artifactstagingdirectory)\extension\arm-snippets-1.2.0.vsix'
+    PathtoPublish: '$(build.artifactstagingdirectory)\extension\arm-snippets-$(Date:yyyyMMdd).$(Rev:.r).vsix'
 
-    ArtifactName: 'arm-snippets-1.2.0.vsix'
+    ArtifactName: 'arm-snippets-$(Date:yyyyMMdd).$(Rev:.r).vsix'
 
 
 
