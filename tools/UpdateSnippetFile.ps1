@@ -8,5 +8,8 @@
 
    "{" + (Get-Content $pathToFile -Raw) + "}"  | Set-Content $pathToFile
 
-   $(Get-Content $pathToFile -Raw).Replace('@@versionnumber@@',$buildNumber) | Set-Content $pathToFile
+   Write-Output "Build Number:$buildNumber"
+
     
+
+   (Get-Content $pathToFile) -replace "**versionnumber**", $buildNumber | out-file $pathToFile
