@@ -1,8 +1,10 @@
    [CmdletBinding()]
     param (
        [Parameter(Mandatory=$true)]
-        [string]$pathToFile
+        [string]$pathToFile,
+        [Parameter(Mandatory=$true)]
+        [string]$buildNumber
     )
 
-   "{" + (Get-Content $pathToFile -Raw) + "}" | % {$_.replace("@@versionnumber@@","$($(Date:yyyyMMdd).$(Rev:.r))")} | Set-Content $pathToFile
+   "{" + (Get-Content $pathToFile -Raw) + "}" | % {$_.replace("@@versionnumber@@","$buildNumber")} | Set-Content $pathToFile
     
