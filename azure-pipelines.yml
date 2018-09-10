@@ -1,16 +1,63 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
-
-pool:
-  vmImage: 'Ubuntu 16.04'
+resources:
+- repo: self
+  clean: true
+queue:
+  name: Hosted
+  demands: 
+  - npm
+  - DotNetFramework
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+- task: Npm@0
+  displayName: 'npm install'
+  inputs:
+    arguments: '-g vsce'
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+
+- task: CopyFiles@2
+  displayName: 'Copy Files to: $(build.artifactstagingdirectory)\extension\'
+  inputs:
+    SourceFolder: Extension
+
+    TargetFolder: '$(build.artifactstagingdirectory)\extension\'
+
+
+- task: CopyFiles@2
+  displayName: 'Copy Files to: $(build.artifactstagingdirectory)\extension\snippets'
+  inputs:
+    SourceFolder: 'azure-xplat-arm-tooling\VSCode'
+
+    Contents: armsnippets.json
+
+    TargetFolder: '$(build.artifactstagingdirectory)\extension\snippets'
+
+    OverWrite: true
+
+
+- task: PowerShell@1
+  displayName: 'PowerShell Script'
+  inputs:
+    scriptName: tools/UpdateSnippetFile.ps1
+
+    arguments: '-pathToFile $(build.artifactstagingdirectory)\extension\snippets\armsnippets.json'
+
+
+- task: CmdLine@1
+  displayName: 'Run vsce '
+  inputs:
+    filename: 'vsce '
+
+    arguments: package
+
+    workingFolder: '$(build.artifactstagingdirectory)\extension\'
+
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: arm-snippets-1.2.0.vsix'
+  inputs:
+    PathtoPublish: '$(build.artifactstagingdirectory)\extension\arm-snippets-1.2.0.vsix'
+
+    ArtifactName: 'arm-snippets-1.2.0.vsix'
+
+
+
