@@ -41,7 +41,7 @@ steps:
   inputs:
     scriptName: tools/UpdateSnippetFile.ps1
 
-    arguments: '-pathToFile $(build.artifactstagingdirectory)\extension\snippets\armsnippets.json -buildNumber $(Build.BuildNumber)'
+    arguments: '-pathToFile $(build.artifactstagingdirectory)\extension\snippets\armsnippets.json -pathToPackageFile $(build.artifactstagingdirectory)\extension\package.json -buildNumber $(Build.BuildNumber)'
 
 
 - task: CmdLine@1

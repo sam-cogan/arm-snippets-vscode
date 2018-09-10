@@ -3,6 +3,8 @@
        [Parameter(Mandatory=$true)]
         [string]$pathToFile,
         [Parameter(Mandatory=$true)]
+        [string]$pathToPackageFile,
+        [Parameter(Mandatory=$true)]
         [string]$buildNumber
     )
 
@@ -12,4 +14,4 @@
 
     
 
-   (Get-Content $pathToFile) -replace "extensionversionnumber", $buildNumber | out-file $pathToFile
+   (Get-Content $pathToPackageFile) -replace "extensionversionnumber", $buildNumber | out-file $pathToPackageFile
