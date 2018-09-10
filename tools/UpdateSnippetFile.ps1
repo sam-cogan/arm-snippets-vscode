@@ -14,4 +14,4 @@
 
     
 
-   (Get-Content $pathToPackageFile) -replace "extensionversionnumber", $buildNumber | out-file $pathToPackageFile
+   (Get-Content $pathToPackageFile -Raw) -replace "extensionversionnumber", $buildNumber | out-file $pathToPackageFile
