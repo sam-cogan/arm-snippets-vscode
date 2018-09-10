@@ -3,7 +3,7 @@
     "displayName": "Azure Resource Manager Snippets",
     "description": "Snippets for creating Azure Resource Manger Templates",
     "license": "SEE LICENSE IN LICENSE.md",
-    "version": "1.2.0",
+    "version": "@@versionnumber@@",
     "publisher": "samcogan",
     "icon": "images/logo.png",
     "galleryBanner": {
