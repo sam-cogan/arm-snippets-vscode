@@ -15,3 +15,5 @@
     
 
    (Get-Content $pathToPackageFile -Raw) -replace "extensionversionnumber", $buildNumber | out-file $pathToPackageFile
+
+   Write-Output $(Get-Content $pathToPackageFile -Raw)
