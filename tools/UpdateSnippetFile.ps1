@@ -12,4 +12,4 @@
 
     
 
-   (Get-Content $pathToFile) -replace "**versionnumber**", $buildNumber | out-file $pathToFile
+   (Get-Content $pathToFile) -replace "extensionversionnumber", $buildNumber | out-file $pathToFile
