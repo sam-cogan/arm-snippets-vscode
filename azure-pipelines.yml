@@ -15,6 +15,12 @@ steps:
   inputs:
     arguments: '-g vsce'
 
+- task: fakhrulhilal-maktum.GitDownloader.git-downloader.GitDownloader@0
+  displayName: 'Fetch git: https://github.com/sam-cogan/azure-xplat-arm-tooling'
+  inputs:
+    RepositoryUrl: 'https://github.com/sam-cogan/azure-xplat-arm-tooling'
+
+    RepositoryPath: '$(Build.GitDirectory)\snippetsrepo'
 
 - task: CopyFiles@2
   displayName: 'Copy Files to: $(build.artifactstagingdirectory)\extension\'
@@ -27,14 +33,13 @@ steps:
 - task: CopyFiles@2
   displayName: 'Copy Files to: $(build.artifactstagingdirectory)\extension\snippets'
   inputs:
-    SourceFolder: 'azure-xplat-arm-tooling\VSCode'
+    SourceFolder: '$(Build.GitDirectory)\snippetsrepo\VSCode'
 
     Contents: armsnippets.json
 
     TargetFolder: '$(build.artifactstagingdirectory)\extension\snippets'
 
     OverWrite: true
-
 
 - task: PowerShell@1
   displayName: 'PowerShell Script'
