@@ -15,3 +15,10 @@
 - Added snippets for Cosmos DB
 - Added snippets for Azure Automation Accounts, Variables, Certificates, Credentials, Runbooks, Schedules
 - Added snippets for Azure Kubernetes Service (AKS) Cluster
+
+## [1.3.0] - 2018-10-14
+- Added snippets Public IP Prefixes
+- Added snippets for Load Balancers (internal and external)
+- Added snippets for Route Tables and Routes
+- Added snippets for Traffic Manager Profile
+
