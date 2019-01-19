@@ -32,5 +32,5 @@
 - Added snippets for tags
 - Fixed outdated values on storage accounts
 
-## [1.4.6] - 2019-01-19
+## [1.4.7] - 2019-01-19
 - Bug Fixes
