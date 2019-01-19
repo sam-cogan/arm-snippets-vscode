@@ -23,4 +23,11 @@
 - Added snippets for Traffic Manager Profile
 
 ## [1.4.2] - 2018-12-29
-- Added snuppets for VPN Gateways and Connections
+- Added snippets for VPN Gateways and Connections
+
+## [1.4.5] - 2019-01-19
+- Added snippets for Azure Container Registry
+- Added snippets for Application Security groups
+- Added snippets for Azure Data Lake Store
+- Added snippets for tags
+- Fixed outdated values on storage accounts
