@@ -33,7 +33,7 @@
 - Fixed outdated values on storage accounts
 - Bug Fixes
 
-## [1.4.8] - 2019-01-20
+## [1.4.9] - 2019-01-20
 - Added snippets for Logic App
 - Added snippets for Log Analytics Workspace
 - Added snippets for User Assigned Managed Identity
