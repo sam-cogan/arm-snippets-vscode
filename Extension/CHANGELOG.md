@@ -25,12 +25,17 @@
 ## [1.4.2] - 2018-12-29
 - Added snippets for VPN Gateways and Connections
 
-## [1.4.5] - 2019-01-19
+## [1.4.7] - 2019-01-19
 - Added snippets for Azure Container Registry
 - Added snippets for Application Security groups
 - Added snippets for Azure Data Lake Store
 - Added snippets for tags
 - Fixed outdated values on storage accounts
-
-## [1.4.7] - 2019-01-19
 - Bug Fixes
+
+## [1.4.8] - 2019-01-20
+- Added snippets for Logic App
+- Added snippets for Log Analytics Workspace
+- Added snippets for User Assigned Managed Identity
+- Added snippets for Recovery Services Vault
+
