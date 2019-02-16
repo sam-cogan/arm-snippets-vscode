@@ -39,3 +39,5 @@
 - Added snippets for User Assigned Managed Identity
 - Added snippets for Recovery Services Vault
 
+## [1.4.10] - 2019-02-16
+- Added support for jsonc files

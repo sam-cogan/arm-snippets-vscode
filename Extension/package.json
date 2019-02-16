@@ -33,6 +33,10 @@
             {
                 "language": "json",
                 "path": "./snippets/armsnippets.json"
+            },
+            {
+                "language": "jsonc",
+                "path": "./snippets/armsnippets.json"
             }
         ]
     }
