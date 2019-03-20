@@ -41,3 +41,6 @@
 
 ## [1.4.10] - 2019-02-16
 - Added support for jsonc files
+
+## [1.4.11] - 2019-003-20
+- Bug fixes
