@@ -42,5 +42,9 @@
 ## [1.4.10] - 2019-02-16
 - Added support for jsonc files
 
-## [1.4.12] - 2019-003-20
+## [1.4.12] - 2019-03-20
 - Bug fixes
+
+## [1.4.13] - 2019-03-21
+- Add Azure Functions
+

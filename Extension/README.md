@@ -8,6 +8,7 @@ Snippets include
 * Skeleton ARM Template
 * Windows and Linux Virtual Machines
 * Azure Web Apps
+* Azure Functions
 * Azure SQL
 * Virtual Networks, Subnets and NSG's
 * Keyvault
