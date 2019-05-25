@@ -41,3 +41,6 @@
 
 ## [1.4.10] - 2019-02-16
 - Added support for jsonc files
+
+## [1.4.14] - 2019-05-25
+- Added Cosmos DB Snippets
