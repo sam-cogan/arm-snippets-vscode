@@ -1,4 +1,4 @@
-# VS Code Azure Resource Manager Snipets
+# VS Code Azure Resource Manager Snippets
 
 This extension adds snippets to Visual Studio Code for creating Azure Resource Manager Templates. These snippets are taken from the [Cross Platform Tooling Samples](https://github.com/Azure/azure-xplat-arm-tooling).
 
