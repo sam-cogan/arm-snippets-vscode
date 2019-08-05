@@ -1,7 +1,7 @@
 {
     "name": "arm-snippets",
     "displayName": "Azure Resource Manager Snippets",
-    "description": "Snippets for creating Azure Resource Manger Templates",
+    "description": "Snippets for creating Azure Resource Manager Templates",
     "license": "SEE LICENSE IN LICENSE.md",
     "version": "extensionversionnumber",
     "publisher": "samcogan",
