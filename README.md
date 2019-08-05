@@ -6,7 +6,7 @@ This extension adds snippets to Visual Studio Code for creating Azure Resource M
 
 ## Feedback & Contributing
 
-Please report any bugs, suggestions or documentation requests via [Github]((https://github.com/sam-cogan/arm-snippets-vscode).
+Please report any bugs, suggestions or documentation requests via [Github](https://github.com/sam-cogan/arm-snippets-vscode).
 Feel free to submit pull requests.
 
 ## Acknowledgements
