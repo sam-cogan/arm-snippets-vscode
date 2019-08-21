@@ -50,3 +50,7 @@
 
 ## [1.4.14] - 2019-05-25
 - Added Cosmos DB Snippets
+
+## [1.4.14] - 2019-08-21
+- Azure Automation Updates
+- Order and Version Updates
