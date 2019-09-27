@@ -37,6 +37,10 @@
             {
                 "language": "jsonc",
                 "path": "./snippets/armsnippets.json"
+            },
+            {
+                "language": "arm-template",
+                "path": "./snippets/armsnippets.json"
             }
         ]
     }

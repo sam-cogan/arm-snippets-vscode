@@ -54,3 +54,6 @@
 ## [1.4.14] - 2019-08-21
 - Azure Automation Updates
 - Order and Version Updates
+- 
+## [1.4.15] - 2019-09-26
+- Add support for arm-template files
