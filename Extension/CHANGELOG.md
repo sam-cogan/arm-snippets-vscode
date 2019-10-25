@@ -54,6 +54,12 @@
 ## [1.4.14] - 2019-08-21
 - Azure Automation Updates
 - Order and Version Updates
-- 
-## [1.4.15] - 2019-09-26
+  
+## [1.4.19] - 2019-09-26
 - Add support for arm-template files
+
+## [1.4.20] - 2019-10-25
+- Add Azure Front Door
+- Add Azure Front Door WAF Profile
+- Add Azure AD Domain Services
+
