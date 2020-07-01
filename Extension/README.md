@@ -2,47 +2,5 @@
 
 ![Build Stats](https://dev.azure.com/samcogandemo/githubbuilds/_apis/build/status/sam-cogan.arm-snippets-vscode)
 
-This extension adds snippets to Visual Studio Code for creating Azure Resource Manager Templates. These snippets are taken from the [Cross Platform Tooling Samples](https://github.com/Azure/azure-xplat-arm-tooling). 
-Snippets include
+## This extension is now deprecated and will be removed soon. The snippets have all been integrated into the [Azure Resource Manager (ARM) Tools extensions](https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools). Please move to this extension to get the latest snippets.
 
-* Skeleton ARM Template
-* Windows and Linux Virtual Machines
-* Azure Web Apps
-* Azure Functions
-* Azure SQL
-* Virtual Networks, Subnets and NSG's
-* Keyvault
-* Network Interfaces and IP's
-* Redis
-* Application Insights
-* DNS
-* Virtual Machines
-* Azure Container Instances
-* Cosmos DB
-* Azure Automation
-* Azure Kubernetes Service (AKS)
-* VPN Gateways
-* Logic Apps
-* Recovery Services
-* Manged Identity
-* Route Tables
-* Storage Accounts
-
-## Inserting Snippets
-
-Inside any JSON file, start typing arm! to see a list of snippets availible. Select the snippet to insert and update any required values.
-
-Inserting an ARM Template Skeleton
-
-![skeleton](https://raw.githubusercontent.com/sam-cogan/arm-snippets-vscode/master/Extension/images/skeleton.gif)
-
-## Feedback & Contributing
-
-Please report any bugs, suggestions or documentation requests via [Github](https://github.com/sam-cogan/arm-snippets-vscode).
-Feel free to submit pull requests.
-
-## Acknowledgements
-Snippets Taken from [Cross Platform Tooling Samples](https://github.com/Azure/azure-xplat-arm-tooling)
- 
-## License 
-[MIT](https://github.com/sam-cogan/arm-snippets-vscode/blob/master/Extension/LICENSE.md)
